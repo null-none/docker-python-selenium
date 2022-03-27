@@ -1,0 +1,8 @@
+version: "3"
+services:
+  test:
+    image: kal15ha/python-selenium:latest
+    command: sh -c "python3 main.py"
+    working_dir: /app
+    volumes:
+      - .:/app
