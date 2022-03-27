@@ -18,5 +18,4 @@ docker rmi $(docker images -a -q)
 ## Usage
 ```bash
 docker-compose up
-docker-compose run test python3 main.py
 ```

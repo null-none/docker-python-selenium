@@ -1,6 +1,7 @@
 version: "3"
 services:
   test:
+    command: sh -c "python3 main.py"
     build:
       context: .
     working_dir: /app
